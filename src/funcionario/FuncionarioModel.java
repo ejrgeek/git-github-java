@@ -69,13 +69,15 @@ public class FuncionarioModel {
 
     @Override
     public String toString() {
-        return "FuncionarioModel{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", email='" + email + '\'' +
-                ", criadoEm=" + criadoEm +
-                ", estaLogado=" + estaLogado +
-                '}';
+        String texto = String.format(
+                "{id=%s, nome=%s, email=%s, criadoEm=%s, estaLogado=%s}",
+                this.getId(),
+                this.nome,
+                this.email,
+                this.criadoEm,
+                this.estaLogado
+        );
+        return texto;
     }
 
 
