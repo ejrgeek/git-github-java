@@ -69,7 +69,7 @@ public class FuncionarioModel {
 
     @Override
     public String toString() {
-        return "FuncionarioModel{" +
+        return "{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", email='" + email + '\'' +
