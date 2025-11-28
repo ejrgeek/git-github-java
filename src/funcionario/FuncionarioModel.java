@@ -69,6 +69,7 @@ public class FuncionarioModel {
 
     @Override
     public String toString() {
+
         String texto = String.format(
                 "{id=%s, nome=%s, email=%s, criadoEm=%s, estaLogado=%s}",
                 this.getId(),
@@ -78,6 +79,7 @@ public class FuncionarioModel {
                 this.estaLogado
         );
         return texto;
+
     }
 
 
